@@ -19,7 +19,7 @@
     "check": "pnpm format:check && pnpm build && pnpm typecheck && pnpm lint && pnpm lint:boundaries"
   },
   "devDependencies": {
-    "@joedeleeuw/antidrift": "github:joedeleeuw/antidrift#fe587e45f1294241c7c8ad9962fad23a21f15eaf&path:/tooling/antidrift",
+    "@joedeleeuw/antidrift": "github:joedeleeuw/antidrift#bf1bccc17c78311d1f9419305022f8b1679a00c6&path:/tooling/antidrift",
     "@joedeleeuw/typescript-tooling": "github:joedeleeuw/typescript-tooling#097019b1fb0fec18872b20ef9bfadee04a2155a3",
     "@types/node": "24.19.0",
     "@typescript-eslint/parser": "8.71.1",

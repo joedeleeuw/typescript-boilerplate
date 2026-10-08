@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@joedeleeuw/antidrift':
-        specifier: github:joedeleeuw/antidrift#fe587e45f1294241c7c8ad9962fad23a21f15eaf&path:/tooling/antidrift
-        version: https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf#path:/tooling/antidrift(@typescript-eslint/parser@8.71.1(eslint@10.12.0)(typescript@6.0.3))(eslint@10.12.0)(oxlint-tsgolint@7.0.2003)(typescript-eslint@8.71.1(eslint@10.12.0)(typescript@6.0.3))(typescript@6.0.3)
+        specifier: github:joedeleeuw/antidrift#bf1bccc17c78311d1f9419305022f8b1679a00c6&path:/tooling/antidrift
+        version: https://codeload.github.com/joedeleeuw/antidrift/tar.gz/bf1bccc17c78311d1f9419305022f8b1679a00c6#path:/tooling/antidrift(@typescript-eslint/parser@8.71.1(eslint@10.12.0)(typescript@6.0.3))(eslint@10.12.0)(oxlint-tsgolint@7.0.2003)(typescript-eslint@8.71.1(eslint@10.12.0)(typescript@6.0.3))(typescript@6.0.3)
       '@joedeleeuw/typescript-tooling':
         specifier: github:joedeleeuw/typescript-tooling#097019b1fb0fec18872b20ef9bfadee04a2155a3
         version: https://codeload.github.com/joedeleeuw/typescript-tooling/tar.gz/097019b1fb0fec18872b20ef9bfadee04a2155a3(dependency-cruiser@18.5.0)(eslint@10.12.0)(oxlint@1.87.0(oxlint-tsgolint@7.0.2003))(prettier@3.9.9)(typescript@6.0.3)
@@ -133,8 +133,8 @@ packages:
     resolution: {integrity: sha512-bV0Tgo9K4hfPCek+aMAn81RppFKv2ySDQeMoSZuvTASywNTnVJCArCZE2FWqpvIatKu7VMRLWlR1EazvVhDyhQ==}
     engines: {node: '>=18.18'}
 
-  '@joedeleeuw/antidrift@https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf#path:/tooling/antidrift':
-    resolution: {gitHosted: true, integrity: sha512-n1xIEWl/hRNN0yEGKoVaQ0j8ISCmrcu61KWJfWccsYfHB1neWfIP7whixOZVWrKGvMqe8lGe2gEVpuPyucj9Fg==, path: /tooling/antidrift, tarball: https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf}
+  '@joedeleeuw/antidrift@https://codeload.github.com/joedeleeuw/antidrift/tar.gz/bf1bccc17c78311d1f9419305022f8b1679a00c6#path:/tooling/antidrift':
+    resolution: {gitHosted: true, integrity: sha512-vlav0X31A+g1u1509IhW0+mYIRal9T3+aMHsvp7U/0jpYCCdr7ZHGLIFgAL65NeNmfOUW4w2OttqYMcXom8HYw==, path: /tooling/antidrift, tarball: https://codeload.github.com/joedeleeuw/antidrift/tar.gz/bf1bccc17c78311d1f9419305022f8b1679a00c6}
     version: 0.15.0
     engines: {node: '>=22.18'}
     hasBin: true
@@ -1356,7 +1356,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.3': {}
 
-  '@joedeleeuw/antidrift@https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf#path:/tooling/antidrift(@typescript-eslint/parser@8.71.1(eslint@10.12.0)(typescript@6.0.3))(eslint@10.12.0)(oxlint-tsgolint@7.0.2003)(typescript-eslint@8.71.1(eslint@10.12.0)(typescript@6.0.3))(typescript@6.0.3)':
+  '@joedeleeuw/antidrift@https://codeload.github.com/joedeleeuw/antidrift/tar.gz/bf1bccc17c78311d1f9419305022f8b1679a00c6#path:/tooling/antidrift(@typescript-eslint/parser@8.71.1(eslint@10.12.0)(typescript@6.0.3))(eslint@10.12.0)(oxlint-tsgolint@7.0.2003)(typescript-eslint@8.71.1(eslint@10.12.0)(typescript@6.0.3))(typescript@6.0.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.8.1(eslint@10.12.0)
       '@oxlint/plugins': 1.78.0
