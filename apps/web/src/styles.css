@@ -1,0 +1,86 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color-scheme: light dark;
+  color: light-dark(#242925, #e8ece7);
+  background: light-dark(#f6f7f3, #181c19);
+  font-synthesis: none;
+  line-height: 1.6;
+  --accent: light-dark(#245e40, #9fd5b2);
+  --muted: light-dark(#5a635d, #b1bbb3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-inline-size: 20rem;
+}
+
+main {
+  inline-size: min(100%, 40rem);
+  margin-inline: auto;
+  padding: clamp(3rem, 12vh, 8rem) clamp(1.5rem, 6vw, 3rem);
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.25rem, 7vw, 3.5rem);
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
+  text-wrap: balance;
+}
+
+p {
+  margin: 0 0 2rem;
+  color: var(--muted);
+}
+
+label {
+  display: block;
+  margin-block-end: 0.5rem;
+  font-weight: 600;
+}
+
+input {
+  inline-size: 100%;
+  min-block-size: 3rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px solid light-dark(#859087, #77877b);
+  border-radius: 0.5rem;
+  background: light-dark(#ffffff, #242c26);
+  color: inherit;
+  caret-color: var(--accent);
+  font: inherit;
+}
+
+input::placeholder {
+  color: var(--muted);
+  opacity: 1;
+}
+
+.help {
+  margin-block: 0.75rem 2rem;
+  font-size: 0.875rem;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+::selection {
+  background: var(--accent);
+  color: light-dark(#ffffff, #181c19);
+}

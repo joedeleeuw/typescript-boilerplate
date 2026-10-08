@@ -1,0 +1,34 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@11.1.3",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @typescript-boilerplate/domain build && pnpm --filter @typescript-boilerplate/web dev",
+    "build": "pnpm -r build",
+    "typecheck": "tsc -b --pretty false && tsc -p tsconfig.tools.json --pretty false",
+    "lint": "oxlint --config oxlint.config.mts apps packages && eslint apps/web/src packages/domain/src --max-warnings=0",
+    "lint:boundaries": "depcruise --config .dependency-cruiser.cjs apps/web/src packages/domain/src",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm format:check && pnpm build && pnpm typecheck && pnpm lint && pnpm lint:boundaries"
+  },
+  "devDependencies": {
+    "@joedeleeuw/antidrift": "github:joedeleeuw/antidrift#fe587e45f1294241c7c8ad9962fad23a21f15eaf&path:/tooling/antidrift",
+    "@joedeleeuw/typescript-tooling": "github:joedeleeuw/typescript-tooling#097019b1fb0fec18872b20ef9bfadee04a2155a3",
+    "@types/node": "24.19.0",
+    "@typescript-eslint/parser": "8.71.1",
+    "dependency-cruiser": "18.5.0",
+    "eslint": "10.12.0",
+    "oxlint": "1.87.0",
+    "oxlint-tsgolint": "7.0.2003",
+    "prettier": "3.9.9",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.1"
+  }
+}
