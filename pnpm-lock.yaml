@@ -134,7 +134,7 @@ packages:
     engines: {node: '>=18.18'}
 
   '@joedeleeuw/antidrift@https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf#path:/tooling/antidrift':
-    resolution: {gitHosted: true, integrity: sha512-n1xIEWl/hRNN0yEGKoVaQ0j8ISCmrcu61KWJfWccsYfHB1neWfIP7whixOZVWrKGvMqe8lGe2gEVpuPyucj9Fg==, tarball: https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf}
+    resolution: {gitHosted: true, integrity: sha512-n1xIEWl/hRNN0yEGKoVaQ0j8ISCmrcu61KWJfWccsYfHB1neWfIP7whixOZVWrKGvMqe8lGe2gEVpuPyucj9Fg==, path: /tooling/antidrift, tarball: https://codeload.github.com/joedeleeuw/antidrift/tar.gz/fe587e45f1294241c7c8ad9962fad23a21f15eaf}
     version: 0.15.0
     engines: {node: '>=22.18'}
     hasBin: true
